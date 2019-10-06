@@ -9,7 +9,7 @@ use yii\web\Controller;
 class ManagerController extends Controller
 {
     /** @var string */
-    public $layout = '//clear';
+//    public $layout = '/clear';
 
     /**
      * @return array
@@ -27,7 +27,7 @@ class ManagerController extends Controller
                     'roots' => [
                         [
                             'driver' => 'LocalFileSystem',
-                            'path' => Yii::getAlias('@storage/web'),
+                            'path' => Yii::getAlias('@storage'),
                             'URL' => Yii::getAlias('@storageUrl'),
                             'uploadDeny' => [
                                 'text/x-php', 'text/php', 'application/x-php', 'application/php'

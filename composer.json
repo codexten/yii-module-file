@@ -16,7 +16,8 @@
       "dev-master": "2.0.x-dev"
     },
     "config-plugin": {
-      "moduleFile": "config/modulefile.php"
+      "core": "config/core.php",
+      "moduleFile": "config/moduleFile.php"
     }
   }
 }
